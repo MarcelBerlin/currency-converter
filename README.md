@@ -22,7 +22,7 @@ Ziel: Einfache Währungsumrechnung von EUR in eine Zielwährung wie bspw. USD, G
 
 ## 📸 Vorschau 
 
-![Screenshot](Screenshot.png)
+![Screenshot](screenshot.png)
 
 ---
 
