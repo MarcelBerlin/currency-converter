@@ -1,0 +1,25 @@
+<h2>💱 Währungsrechner</h2>
+
+<label>
+Beitrag in EUR:
+<input type="number" [(ngModel)]="amount" />
+
+</label>
+
+<label>
+    Zielwährung:
+    <select [(ngModel)]="targetCurrency">
+        <option *ngFor="let currency of currencies"  [value]="currency">
+            {{ currency }}
+        </option>
+    </select>
+</label>
+
+
+<button (click)="convert()">Umrechnen</button>
+
+<p *ngIf="isLoading">⏳ Wird geladen...</p>
+<p *ngIf="errorMessage">{{ errorMessage }}</p>
+<p *ngIf="result !== null && !isLoading && !errorMessage">
+    {{ amount }} EUR = {{ result | number:'1.2-2' }} {{ targetCurrency }}
+</p> 
