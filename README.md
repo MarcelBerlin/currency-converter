@@ -29,8 +29,8 @@ Ziel: Einfache Währungsumrechnung von EUR in eine Zielwährung wie bspw. USD, G
 ## 📦 Projekt starten (lokal)
 
 ```bash
-git clone https://github.com/MarcelBerlin/angular-todo-app.git
-cd angular-todo-app
+git clone https://github.com/MarcelBerlin/currency-converter.git
+cd currency-converter
 npm install
 ng serve
 
