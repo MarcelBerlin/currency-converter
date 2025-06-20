@@ -16,7 +16,7 @@ Ziel: Einfache Währungsumrechnung von EUR in eine Zielwährung wie bspw. USD, G
 - Angular 19 (Standalone Components)
 - TypeScript
 - API
-- CSS
+- SCSS
 
 ---
 

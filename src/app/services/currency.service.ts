@@ -13,7 +13,7 @@ export class CurrencyService {
 
   convertCurrency(from: string, to: string, amount: number): Observable<any> {
     const url = `https://api.frankfurter.app/latest?from=${from}&to=${to}`;
-    return this.http.get<any>(url); // wir holen erstmal das ganze JSON
+    return this.http.get<any>(url); 
   }
 
 
